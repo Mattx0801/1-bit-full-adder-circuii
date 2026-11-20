@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
+  wokwi_id:     480459111678030849
+  title:        "1-bit full adder circuit" 
+  author:       "Matthew Lin" 
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "This circuit adds three 1‑bit inputs (A, B, and Carry‑In) and produces a 1‑bit Sum and a 1‑bit Carry‑Out, enabling multi‑bit binary addition when chained together. "      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -17,9 +17,9 @@ project:
 pinout:
   # Inputs
   ui[0]: ""
-  ui[1]: ""
-  ui[2]: ""
-  ui[3]: ""
+  ui[1]: "A"
+  ui[2]: "B"
+  ui[3]: "Carry-In"
   ui[4]: ""
   ui[5]: ""
   ui[6]: ""
@@ -27,8 +27,8 @@ pinout:
 
   # Outputs
   uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
+  uo[1]: "Sum"
+  uo[2]: "Carry-Out"
   uo[3]: ""
   uo[4]: ""
   uo[5]: ""
