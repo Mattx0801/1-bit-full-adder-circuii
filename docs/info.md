@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+A 1‑bit full adder adds three 1‑bit inputs (A, B, and Carry‑In) and produces a 1‑bit Sum and a 1‑bit Carry‑Out, enabling multi‑bit binary addition when chained together.
 
 ## How to test
 
-Explain how to use your project
+test it with various inputs for input A, B, and C-In and see what output it produces.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+2 LEDs, 2 XOR gates, 2 AND gate, and 1 or gate.
